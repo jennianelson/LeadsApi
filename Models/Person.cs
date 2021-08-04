@@ -19,8 +19,8 @@ namespace LeadsApi.Models
         public string Company {get; set;}
 
         [Required(ErrorMessage = "PhoneNumber is required")]
-        public short PhoneNumber {get; set;}
-        public short PostCode {get; set;}
+        public string PhoneNumber {get; set;}
+        public char PostCode {get; set;}
         public DateTime DateCreated {get; set;}
     }
 }
