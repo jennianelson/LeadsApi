@@ -20,7 +20,7 @@ namespace LeadsApi.Models
 
         [Required(ErrorMessage = "PhoneNumber is required")]
         public string PhoneNumber {get; set;}
-        public char PostCode {get; set;}
+        public int PostCode {get; set;}
         public DateTime DateCreated {get; set;}
     }
 }
